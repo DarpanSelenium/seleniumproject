@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="firstname" value="Darpan"></parameter>
+  <parameter name="URL" value="http://newtours.demoaut.com/"></parameter> 
+    <classes>
+<!--       <class name="com.HomeTest.etlhive.RobotMouse"/> -->
+
+      <class name="com.HomeTest.etlhive.RobotClass"/>
+      <class name="com.HomeTest.etlhive.TestHomePage"/>
+      <class name="com.HomeTest.etlhive.DemoAlerts"/>
+      <class name="com.HomeTest.etlhive.TestRegisterPage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
